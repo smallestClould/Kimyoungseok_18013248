@@ -5,4 +5,4 @@ r = p/(1+eccentricity*cos(nu));
 r_x = semimajor_axis*eccentricity+r*cos(nu);
 r_y = r*sin(nu);
 
-rangeInPQW = [r_x, r_y,0];
+rangeInPQW = [r_x, r_y,0]';
